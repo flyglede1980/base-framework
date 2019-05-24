@@ -1,1 +1,1 @@
-颂车网基础框架，实现SpringCoud脚手架。
+SpringBoot+SpringCloud微服务基础设施。
