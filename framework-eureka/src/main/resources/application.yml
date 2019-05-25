@@ -1,0 +1,24 @@
+# 服务端口设置
+server:
+  port: 8001
+
+eureka:
+  instance:
+    namespace: 服务治理
+    instace-id: ${spring.cloud.client.ipAddress}:${spring.application.name}
+    hostname: localhost
+    prefer-ip-address: false
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 5000
+spring:
+  application:
+    name: 服务治理

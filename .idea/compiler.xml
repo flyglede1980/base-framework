@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="base.credit.biz" />
+        <module name="base.credit.starter" />
+        <module name="base.customer.api" />
+        <module name="base.customer.biz" />
+        <module name="base.customer.starter" />
+        <module name="base.pay.api" />
+        <module name="base.pay.starter" />
+        <module name="base.user.api" />
+        <module name="base.user.biz" />
+        <module name="base.user.starter" />
+        <module name="boss-config" />
+        <module name="boss-eureka" />
+        <module name="boss-hystrix-dashboard" />
+        <module name="config" />
+        <module name="eureka" />
+        <module name="framework-config" />
+        <module name="framework-eureka" />
+        <module name="framework-gateway" />
+        <module name="framework-hystrix" />
+        <module name="framework-hystrix-dashboard" />
+        <module name="framework-monitor" />
+        <module name="framework-sleuth" />
+        <module name="gateway" />
+        <module name="hystrix" />
+        <module name="sleuth" />
+        <module name="yqzz.brace.eureka (1)" />
+        <module name="yqzz.infrastructure.config" />
+        <module name="yqzz.infrastructure.eureka" />
+        <module name="yqzz.infrastructure.hystrix" />
+        <module name="yqzz.infrastructure.zipkin" />
+        <module name="yqzz.infrastructure.zuul" />
+        <module name="zipkin" />
+        <module name="zuul" />
+      </profile>
+      <profile name="Annotation profile for base-framework" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="boss-sleuth" />
+        <module name="boss-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aggregation" target="1.8" />
+      <module name="base" target="1.8" />
+      <module name="base-framework" target="1.8" />
+      <module name="base.afterloan" target="1.8" />
+      <module name="base.afterloan.api" target="1.8" />
+      <module name="base.afterloan.biz" target="1.8" />
+      <module name="base.afterloan.starter" target="1.8" />
+      <module name="base.authority" target="1.8" />
+      <module name="base.authority.api" target="1.8" />
+      <module name="base.authority.biz" target="1.8" />
+      <module name="base.authority.starter" target="1.8" />
+      <module name="base.contract" target="1.8" />
+      <module name="base.contract.api" target="1.8" />
+      <module name="base.contract.biz" target="1.8" />
+      <module name="base.contract.starter" target="1.8" />
+      <module name="base.credit" target="1.8" />
+      <module name="base.credit.api" target="1.8" />
+      <module name="base.credit.biz" target="1.8" />
+      <module name="base.credit.starter" target="1.8" />
+      <module name="base.customer" target="1.8" />
+      <module name="base.customer.api" target="1.8" />
+      <module name="base.customer.biz" target="1.8" />
+      <module name="base.customer.starter" target="1.8" />
+      <module name="base.infile" target="1.8" />
+      <module name="base.infile.api" target="1.8" />
+      <module name="base.infile.biz" target="1.8" />
+      <module name="base.infile.starter" target="1.8" />
+      <module name="base.loan" target="1.8" />
+      <module name="base.loan.api" target="1.8" />
+      <module name="base.loan.biz" target="1.8" />
+      <module name="base.loan.starter" target="1.8" />
+      <module name="base.message" target="1.8" />
+      <module name="base.message.api" target="1.8" />
+      <module name="base.message.biz" target="1.8" />
+      <module name="base.message.starter" target="1.8" />
+      <module name="base.pay" target="1.8" />
+      <module name="base.pay.api" target="1.8" />
+      <module name="base.pay.biz" target="1.8" />
+      <module name="base.pay.starter" target="1.8" />
+      <module name="base.product" target="1.8" />
+      <module name="base.product.api" target="1.8" />
+      <module name="base.product.biz" target="1.8" />
+      <module name="base.product.starter" target="1.8" />
+      <module name="base.signing" target="1.8" />
+      <module name="base.signing.api" target="1.8" />
+      <module name="base.signing.biz" target="1.8" />
+      <module name="base.signing.starter" target="1.8" />
+      <module name="base.system" target="1.8" />
+      <module name="base.system.api" target="1.5" />
+      <module name="base.system.biz" target="1.5" />
+      <module name="base.system.starter" target="1.5" />
+      <module name="base.user" target="1.8" />
+      <module name="base.user.api" target="1.8" />
+      <module name="base.user.biz" target="1.8" />
+      <module name="base.user.starter" target="1.8" />
+      <module name="base.workbench" target="1.8" />
+      <module name="base.workbench.api" target="1.8" />
+      <module name="base.workbench.biz" target="1.8" />
+      <module name="base.workbench.starter" target="1.8" />
+      <module name="boss-config" target="1.8" />
+      <module name="boss-eureka" target="1.8" />
+      <module name="boss-hystrix-dashboard" target="1.8" />
+      <module name="boss-sleuth" target="1.8" />
+      <module name="boss-zuul" target="1.8" />
+      <module name="com.opportunity.infrastructure" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="core" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="framework-config" target="1.8" />
+      <module name="framework-eureka" target="1.8" />
+      <module name="framework-gateway" target="1.8" />
+      <module name="framework-hystrix" target="1.8" />
+      <module name="framework-hystrix-dashboard" target="1.8" />
+      <module name="framework-monitor" target="1.8" />
+      <module name="framework-sleuth" target="1.8" />
+      <module name="framework-zuul" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="hystrix" target="1.8" />
+      <module name="infrastructure" target="1.8" />
+      <module name="opportunity" target="1.8" />
+      <module name="server" target="1.8" />
+      <module name="sleuth" target="1.8" />
+      <module name="songcw" target="1.8" />
+      <module name="songcw-op" target="1.8" />
+      <module name="util" target="1.8" />
+      <module name="yqzz" target="1.8" />
+      <module name="yqzz.aggregation" target="1.8" />
+      <module name="yqzz.base" target="1.8" />
+      <module name="yqzz.base.authority" target="1.5" />
+      <module name="yqzz.base.authority.api" target="1.8" />
+      <module name="yqzz.base.authority.biz" target="1.8" />
+      <module name="yqzz.base.authority.starter" target="1.8" />
+      <module name="yqzz.base.pay" target="1.5" />
+      <module name="yqzz.base.pay.api" target="1.5" />
+      <module name="yqzz.base.pay.biz" target="1.5" />
+      <module name="yqzz.base.pay.starter" target="1.5" />
+      <module name="yqzz.base.system" target="1.5" />
+      <module name="yqzz.base.system.api" target="1.5" />
+      <module name="yqzz.base.system.biz" target="1.5" />
+      <module name="yqzz.base.system.starter" target="1.5" />
+      <module name="yqzz.base.user" target="1.5" />
+      <module name="yqzz.base.user.api" target="1.5" />
+      <module name="yqzz.base.user.biz" target="1.5" />
+      <module name="yqzz.base.user.starter" target="1.5" />
+      <module name="yqzz.brace" target="1.8" />
+      <module name="yqzz.brace.config" target="1.8" />
+      <module name="yqzz.brace.eureka" target="1.8" />
+      <module name="yqzz.brace.eureka (1)" target="1.8" />
+      <module name="yqzz.brace.hystrix" target="1.5" />
+      <module name="yqzz.brace.peer" target="1.8" />
+      <module name="yqzz.brace.ribbon" target="1.8" />
+      <module name="yqzz.brace.zipkin" target="1.5" />
+      <module name="yqzz.brace.zuul" target="1.5" />
+      <module name="yqzz.common" target="1.8" />
+      <module name="yqzz.core" target="1.8" />
+      <module name="yqzz.infrastructure" target="1.8" />
+      <module name="yqzz.infrastructure.config" target="1.8" />
+      <module name="yqzz.infrastructure.eureka" target="1.8" />
+      <module name="yqzz.infrastructure.hystrix" target="1.8" />
+      <module name="yqzz.infrastructure.ribbon" target="1.8" />
+      <module name="yqzz.infrastructure.zipkin" target="1.8" />
+      <module name="yqzz.infrastructure.zuul" target="1.8" />
+      <module name="yqzz.server" target="1.8" />
+      <module name="yqzz.util" target="1.8" />
+      <module name="yyx" target="1.8" />
+      <module name="zipkin" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: 日志采集
+server:
+  port: 8003
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/

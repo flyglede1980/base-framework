@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: 熔断服务
+server:
+  port: 8002
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
+turbine:
+  aggregator:
+    cluster-config: default
+  app-config: 消费中心
+  cluster-name-expression: "'default'"

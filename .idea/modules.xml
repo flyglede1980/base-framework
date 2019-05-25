@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/base-framework.iml" filepath="$PROJECT_DIR$/.idea/base-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-config/framework-config.iml" filepath="$PROJECT_DIR$/framework-config/framework-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-eureka/framework-eureka.iml" filepath="$PROJECT_DIR$/framework-eureka/framework-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-gateway/framework-gateway.iml" filepath="$PROJECT_DIR$/framework-gateway/framework-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-hystrix/framework-hystrix.iml" filepath="$PROJECT_DIR$/framework-hystrix/framework-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-monitor/framework-monitor.iml" filepath="$PROJECT_DIR$/framework-monitor/framework-monitor.iml" />
+    </modules>
+  </component>
+</project>
